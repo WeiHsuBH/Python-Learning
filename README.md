@@ -15,5 +15,5 @@
 ```b = 3.14159```  
 此时将在内存开辟出新的一块，里面内容为‘3.14159‘  
 b更改为对‘3.14159‘的引用  
-![blockchain]()  
+![blockchain](https://raw.githubusercontent.com/WeiHsuBH/Python-Learning/master/imgs/a%3D1b%3D314159.png)  
 **对于可变类型：**  
