@@ -55,4 +55,5 @@
 8. 分割线  
 分割线的语法只需要三个 * 号，比如  
 ***  
+参考：[教你如何用MarkDown写出排版质量较高的帖子——Markdown入门指南](http://www.thinkgis.cn/topic/541578fd25b631863b01315d)  
 # 4. Todo
