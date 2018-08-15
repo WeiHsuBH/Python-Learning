@@ -54,4 +54,19 @@
 分割线的语法只需要三个 * 号，比如  
 ***  
 参考：[Markdown——入门指南 Te_Lee](https://www.jianshu.com/p/1e402922ee32/)  
-# 4. Todo
+# 4. Ubuntu16.04 LTS Mongodb  
+1. 安装mongodb
+从[官方下载](https://www.mongodb.org/dl/linux/x86_64-ubuntu1604)中下载对应安装包。  
+下载完成后在终端中解压tar文件：  
+``tar -zxvf mongodb-linux-x86_64-ubuntu1604-v3.2-latest.tgz``  
+将解压后的文件夹移动到指定的目录：  
+``mv mongodb-linux-x86_64-ubuntu1604-3.2.20-23-g96349e6/ /usr/local/mongodb``  
+将Mongodb的可执行文件添加到PATH中：  
+``export PATH=/usr/local/mongodb/bin/:$PATH``  
+2. 创建数据库目录  
+``mkdir -p /data/db``  
+**/data/db 是 MongoDB 默认的启动的数据库路径(--dbpath)**  
+3. 启动mongodb服务  
+默认mongodb是启动着的  
+手动启动的话``mongod``  
+
