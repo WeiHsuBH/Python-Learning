@@ -54,7 +54,7 @@
 分割线的语法只需要三个 * 号，比如  
 ***  
 参考：[Markdown——入门指南 Te_Lee](https://www.jianshu.com/p/1e402922ee32/)  
-# 4. Ubuntu16.04 LTS Mongodb  
+## 4. Ubuntu16.04 LTS Mongodb  
 1. 安装mongodb
 从[官方下载](https://www.mongodb.org/dl/linux/x86_64-ubuntu1604)中下载对应安装包。  
 下载完成后在终端中解压tar文件：  
@@ -69,7 +69,7 @@
 3. 启动mongodb服务  
 默认mongodb是启动着的  
 手动启动的话``mongod``  
-# 5. Git使用  
+## 5. Git使用  
 拷贝Git仓库 ``git clone [url]``  
 添加文件至缓存 ``git add file_name1 [file_name2]``  
 将缓存区内容添加到仓库 ``git commit -m "说明"``  
@@ -82,5 +82,5 @@
 删除分支 ``git branch -d (branchname)``  
 合并分支 将b合并到a，在a中 ``git merge b``  
 待学习完善  
-# 6. To Do
+## 6. To Do
 
