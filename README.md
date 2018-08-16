@@ -1,4 +1,4 @@
-# Working-experience
+# 工作记录
 ## 1. SSH免密登陆
   本地操作系统 ubutnu16.04LTS  
 1. ```Ctrl```+```Alt```+```T```打开终端  
@@ -69,4 +69,18 @@
 3. 启动mongodb服务  
 默认mongodb是启动着的  
 手动启动的话``mongod``  
+# 5. Git使用  
+拷贝Git仓库 ``git clone [url]``  
+添加文件至缓存 ``git add file_name1 [file_name2]``  
+将缓存区内容添加到仓库 ``git commit -m "说明"``  
+删除文件 ``git rm file``  
+移动或重命名一个文件、目录、软连接 ``git mv a b``  
+列出所有分支 ``git branch``  
+创建分支 ``git branch (branchname)``  
+创建新分支并立即切换到该分支下 `` git checkout -b (branchname) ``  
+切换分支 ``git checkout (branchname)``  
+删除分支 ``git branch -d (branchname)``  
+合并分支 将b合并到a，在a中 ``git merge b``  
+待学习完善  
+# 6. To Do
 
