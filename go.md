@@ -44,3 +44,7 @@
 比如``"args": [
                 "/home/xw/xx/xx-go-projects/conf/server-v1-test.toml"
             ]``
+3. 安装glide,快速安装外部库  
+``curl https://glide.sh/get | sh``  
+安装完成，进入项目中主程序所在的目录，有一个``vendor``文件夹  
+运行``glide install``则会自动安装所需的库  
