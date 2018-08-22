@@ -82,5 +82,32 @@
 删除分支 ``git branch -d (branchname)``  
 合并分支 将b合并到a，在a中 ``git merge b``  
 待学习完善  
-## 6. To Do
+## 6. VSCODE 配置 go 调试
+1. 安装dlv  
+``go install github.com/derekparker/delve/cmd/dlv``  
+2. 启动dlv  
+``dlv debug --headless --listen=:2345 --log``  
+3. 设置配置文件  
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "remotePath": "",
+            "port": 2345,
+            "host": "127.0.0.1",
+            "program": "${fileDirname}",
+            "env": {
+                "GOPATH":"D:/Develop/vscodegolang"
+            },
+            "args": [],
+            "showLog": true
+        }
+    ]
+}
+```  
 
