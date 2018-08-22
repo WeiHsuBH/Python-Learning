@@ -1,5 +1,5 @@
 # golang安装配置  
-1. 官网下载安装包  
+## 1. 安装go  
 下载地址：``https://golang.org/dl/``  
 终端进入下载的目录，运行以下命令  
 ``sudo tar -C /usr/local -xzf xxxxxxxx.tar.gz``  
@@ -11,7 +11,7 @@
 ``export PATH=$PATH:/usr/local/go/bin:/home/asd/``  
 
 
-2. vscode配置golang调试  
+## 2. vscode配置golang调试  
 首先安装dlv  
 ``go install github.com/derekparker/delve/cmd/dlv``  
 安装完成启动dlv  
@@ -44,7 +44,8 @@
 比如``"args": [
                 "/home/xw/xx/xx-go-projects/conf/server-v1-test.toml"
             ]``
-3. 安装glide,快速安装外部库  
+## 3. 安装glide,快速安装外部库  
+首先安装glide  
 ``curl https://glide.sh/get | sh``  
 安装完成，进入项目中主程序所在的目录，有一个``vendor``文件夹  
-运行``glide install``则会自动安装所需的库  
+运行``glide install``则会自动安装所需的库至vendor文件夹中  
