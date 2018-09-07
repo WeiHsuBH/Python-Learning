@@ -33,3 +33,9 @@ netstat -?
 -x或--unix：此参数的效果和指定"-A unix"参数相同；
 --ip或--inet：此参数的效果和指定"-A inet"参数相同。
 ```  
+### git强制覆盖本地代码
+```
+$ git fetch --all
+$ git reset --hard origin/master 
+$ git pull
+```  
